@@ -150,7 +150,6 @@ class Tsl2591(object):
         else: # unknown channel!
             return 0
 
-
 if __name__ == '__main__':
 
     tsl = Tsl2591()  # initialize
